@@ -1,7 +1,7 @@
-﻿{
+{
   "iisSettings": {
-    "windowsAuthentication": false, 
-    "anonymousAuthentication": true, 
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
     "iisExpress": {
       "applicationUrl": "http://localhost:51340",
       "sslPort": 44339
@@ -11,6 +11,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
+      "launchUrl": "http://localhost:51340#access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjAifQ.eyJlbWFpbCI6ImxlYW5kcm8uemF2YXNraUB2b2x2by5jb20iLCJ1c2VybmFtZSI6ImEzMDY0NjgiLCJleHAiOjE1NTQzMjEwNjQsInNjb3BlIjpbXSwiY2xpZW50X2lkIjoiT1JETWRlYWxlcnJlcG9ydHMiLCJhdWQiOiJPUkRNZGVhbGVycmVwb3J0cyJ9.XcNoFWrDF1WtUnGiz7R6UvHe1hpbkm8PLziMz9NMtPENc8pIG-eLQKCjyHxisqhLUEDWYWWtXXvw-Kat954KRugxv0kekA0RhvEqW8FKEj3iRkMyvUxvNMIwHApuq3hhUtOdy3j2fV9GaDvFhM0-NrLLbFbEvBbbu64ptvxtLdQKz9BFW1HslPyIjFrx80d4lNhKqWADp6Aa_g9l5Lb5akS6kdgneXUTZs6i4RZcG1wHdEo-jCEyNrdCaLXIhFxoAQE79Br5fye8pvLmDaCGgA-MEYBu6enfAnTsjZCu3kkhtmXf0pFvhb3vEeUvBv08nONrnP02g1spKXuwq4gIzQ&state=OpenIdConnect.AuthenticationProperties%3D_UbSeL8yiugrZBsXbCuAZ3MOVGBO_gcCCNI3W7ej8XVpbighvsLmoSo-D3ZEZOx1j93ZsCRMZyfze4Sp6dzeqNdU9NbTsFauTdVdJtB_UeQ&token_type=Bearer&expires_in=7199",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -18,10 +19,10 @@
     "DealerInsightRazor": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
     }
   }
 }
