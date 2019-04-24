@@ -18,8 +18,8 @@ namespace DealerInsightRazor.Pages
         }
         public async Task OnGetAsync()
         {
-            var reports = await _reportRepo.GetAvailableReportsAsync();
-            AvailableReports = reports.ToList();
+            //var reports = await _reportRepo.GetAvailableReportsAsync();
+            //AvailableReports = reports.ToList();
         }
     }
 }
